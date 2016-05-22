@@ -1,0 +1,15 @@
+﻿<div class="container"> 
+    <carousel interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" class="slide_image">
+            <div class="carousel-caption">               
+            </div>
+        </slide>
+    </carousel>
+</div>
+<style>
+    .slide_image {
+    width:100%;
+    overflow:inherit;
+    }
+</style>
