@@ -1,4 +1,12 @@
-﻿<div class="container"> 
+ <div class="home-content col-md-12 col-lg-12 col-xs-12 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-sm-12">
+                <img src="/Content/Chrysanthemum.jpg" class="display-image" />
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-sm-12">
+                <h2>A bit about Me..</h2>
+
+            </div>
+        </div>
     <carousel interval="myInterval">
         <slide ng-repeat="slide in slides" active="slide.active">
             <img ng-src="{{slide.image}}" class="slide_image">
@@ -6,7 +14,7 @@
             </div>
         </slide>
     </carousel>
-</div>
+
 <style>
     .slide_image {
     width:100%;
