@@ -51,6 +51,7 @@ ul li {
 }
 
 .navbar li a {
+    margin-bottom:5px !important;
     text-decoration: none;
     font-family: Oswald !important;
     font-size: 24px !important;
