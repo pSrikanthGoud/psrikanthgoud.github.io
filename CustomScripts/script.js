@@ -39,16 +39,16 @@ MyCvApp.controller('mainController', function ($scope) {
     $scope.myInterval = 3000;
     $scope.slides = [
       {
-          image: 'http://lorempixel.com/400/200/'
+          image: './Content/2.jpeg'
       },
       {
-          image: 'http://lorempixel.com/400/200/food'
+          image: './Content/1.jpeg'
       },
       {
-          image: 'http://lorempixel.com/400/200/sports'
+          image: './Content/2.jpeg'
       },
       {
-          image: 'http://lorempixel.com/400/200/people'
+          image: './Content/1.jpeg'
       }
     ];
 });
