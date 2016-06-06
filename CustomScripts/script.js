@@ -39,16 +39,16 @@ MyCvApp.controller('mainController', function ($scope) {
     $scope.myInterval = 3000;
     $scope.slides = [
       {
-          image: './Content/2.jpeg'
+          image: './Content/2.jpg'
       },
       {
-          image: './Content/1.jpeg'
+          image: './Content/1.jpg'
       },
       {
-          image: './Content/2.jpeg'
+          image: './Content/2.jpg'
       },
       {
-          image: './Content/1.jpeg'
+          image: './Content/1.jpg'
       }
     ];
 });
