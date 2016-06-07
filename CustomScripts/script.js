@@ -1,38 +1,37 @@
-var MyCvApp = angular.module('MyCvApp', ['ngRoute', 'ui.bootstrap', 'uiGmapgoogle-maps']);
+v  var MyCvApp = angular.module('MyCvApp', ['ngRoute', 'ui.bootstrap', 'uiGmapgoogle-maps']);
 
 
-MyCvApp.config(function ($routeProvider, uiGmapGoogleMapApiProvider) {
-    uiGmapGoogleMapApiProvider.configure({
-        v: '3.18'
-    });
-    $routeProvider
-
-       
-        .when('/', {
-            templateUrl: './home.html',
-            controller: 'mainController'
-        })
-
-       
-        .when('/resume', {
-            templateUrl: './resume.html',
-            controller: 'resumeController'
-        })        
-        .when('/contact', {
-            templateUrl: './contact.html',
-            controller: 'contactController'
-        })
-         .when('/projects', {
-             templateUrl: './projects.html',
-             controller: 'projectsController'
-         })
-        .otherwise({
-            templateUrl: 'Home/_Main',
-            controller: 'mainController'
-
+    MyCvApp.config(function ($routeProvider, uiGmapGoogleMapApiProvider) {
+        uiGmapGoogleMapApiProvider.configure({
+            v: '3.18'
         });
-});
+        $routeProvider
 
+
+            .when('/', {
+                templateUrl: './home.html',
+                controller: 'mainController'
+            })
+
+
+            .when('/resume', {
+                templateUrl: './resume.html',
+                controller: 'resumeController'
+            })
+            .when('/contact', {
+                templateUrl: './contact.html',
+                controller: 'contactController'
+            })
+             .when('/projects', {
+                 templateUrl: './projects.html',
+                 controller: 'projectsController'
+             })
+            .otherwise({
+                templateUrl: 'Home/_Main',
+                controller: 'mainController'
+
+            });
+    });
 
 MyCvApp.controller('mainController', function ($scope) {
 
