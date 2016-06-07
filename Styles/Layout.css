@@ -20,7 +20,7 @@ footer {
     text-align: center;
 }
 
-inlineText li {
+.inlineText li {
     display: inline;
 }
 
