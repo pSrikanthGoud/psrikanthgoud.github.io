@@ -126,16 +126,16 @@ h5 {
   height: 30px;
   font-size: 18pt;
   line-height: 24pt;
-  background-color: #5da4d9;
+  background-color: #1fafbb;
   margin-top: 20px;
   padding: 0px 6px;
 }
 .sidebar .heading nav .side-nav h3 {
-  color: #5da4d9;
+  color: #1fafbb;
   padding: 0 15px;
 }
 .sidebar .heading nav .side-nav li a:hover {
-  color: #5da4d9;
+  color: #1fafbb;
 }
 .sidebar .heading nav .side-nav li:hover {
   background-color: transparent !important;
@@ -174,7 +174,7 @@ h5 {
   margin: 0px;
 }
 .sidebar .info {
-  border-bottom: 1px solid #4783c2;
+  border-bottom: 1px solid #54847b;
   padding-left: 0px;
 }
 .sidebar .info span {
@@ -201,7 +201,7 @@ h5 {
   padding-left: 0px;
 }
 .sidebar .skill-line .progress {
-  background-color: #4783c2;
+  background-color: #54847b;
   height: 2px;
   overflow: visible;
 }
