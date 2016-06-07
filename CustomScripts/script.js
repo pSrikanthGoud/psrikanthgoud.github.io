@@ -1,4 +1,4 @@
-v  var MyCvApp = angular.module('MyCvApp', ['ngRoute', 'ui.bootstrap', 'uiGmapgoogle-maps']);
+ var MyCvApp = angular.module('MyCvApp', ['ngRoute', 'ui.bootstrap', 'uiGmapgoogle-maps']);
 
 
     MyCvApp.config(function ($routeProvider, uiGmapGoogleMapApiProvider) {
